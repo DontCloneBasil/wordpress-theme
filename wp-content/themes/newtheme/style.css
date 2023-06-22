@@ -1,0 +1,58 @@
+/*
+Theme Name: Blank Theme V2
+Author: ROC Horizon College
+Description: Dit thema laat op de homepage een overzicht van posts zien met een bovenaan een lijst van links naar de beschikbare pagina's
+Version: 2.0
+*/
+body{
+    text-align: center;
+    background-image: url(https://wallpapertag.com/wallpaper/full/b/1/f/139186-sunset-backgrounds-3072x2050-pc.jpg);
+}
+p,li a,h1 a,h2 a {
+    color: white;
+}
+header {
+    background-color: rgba(170, 119, 119, 0.344);
+}
+.menu {display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+li {
+    display: inline;
+    object-fit: scale-down;
+}
+li a {
+    border-color: black;
+    border-style: solid;
+    border-radius: 10%;
+}
+li a:hover {
+    background-color: rgba(70, 52, 52, 0.3);
+}
+main{display: flex;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    background-color: rgba(178, 119, 119, 0.344);;
+    border-radius: 10px;
+}
+main:hover{
+    transform: scale(1.25, 1.12);
+    -moz-transform: scale(1.25, 1.12);
+   -ms-transform: scale(1.25, 1.12);
+   -webkit-transform: scale(1.25, 1.12);
+   -o-transform: scale(1.25, 1.12);
+   }
+
+   li a:hover{
+    transform: scale(1.5, 1.25);
+    -moz-transform: scale(1.5, 1.25);
+   -ms-transform: scale(1.5, 1.25);
+   -webkit-transform: scale(1.5, 1.25);
+   -o-transform: scale(1.5, 1.25);
+   }
