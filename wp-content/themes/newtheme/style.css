@@ -5,8 +5,13 @@ Description: Dit thema laat op de homepage een overzicht van posts zien met een 
 Version: 2.0
 */
 body{
-    text-align: center;
     background-image: url(https://wallpapertag.com/wallpaper/full/b/1/f/139186-sunset-backgrounds-3072x2050-pc.jpg);
+}
+header h1 a {
+    display: none;
+}
+ul {
+    text-align: center;
 }
 p,li a,h1 a,h2 a {
     color: white;
@@ -56,3 +61,6 @@ main:hover{
    -webkit-transform: scale(1.5, 1.25);
    -o-transform: scale(1.5, 1.25);
    }
+article {
+    padding: 10px;
+}
